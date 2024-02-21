@@ -15,8 +15,9 @@
 html {
   max-width: 100vw;
   overflow-x: hidden;
-  /* font-family: 'Roboto', sans-serif; */
-  font-family: 'Darker Grotesque', sans-serif;
+  font-family: "Kode Mono", monospace;
+  /* font-family: 'Inconsolata', monospace; */
+  /* font-family: 'Darker Grotesque', sans-serif; */
   line-height: 1.8;
   color: white;
 }
@@ -28,7 +29,7 @@ body {
 :root {
   --primary: #2e6fef;
   --secondary: #f9b61a;
-  --background: #141d3a
+  --background: #141d3a;
 }
 
 a {
@@ -83,18 +84,17 @@ blockquote {
 }
 
 .animate-cross {
-
   animation: cross 2s infinite;
 }
 
-
 @keyframes cross {
-  0%, 100% {
+  0%,
+  100% {
     /* transform: translateY(25%); */
-    transform: translate(-100px,100px);
+    transform: translate(-100px, 100px);
   }
   50% {
-    transform: translate(0,0);
+    transform: translate(0, 0);
   }
 }
 
@@ -103,7 +103,6 @@ blockquote {
     font-size: 38px;
     font-weight: 600;
   }
-
 
   h2 {
     font-size: 28px;
@@ -126,5 +125,4 @@ blockquote {
     line-height: 1.75;
     letter-spacing: 1px;
   }
-
 }
