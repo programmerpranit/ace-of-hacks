@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import React from "react";
+import Footer from "@/sections/Footer";
 
 export const metadata: Metadata = {
   title: "Ace of Hacks",
@@ -27,7 +28,21 @@ export default function RootLayout({
           rel="stylesheet"
         />
       </head>
-      <body>{children}</body>
+      <body>
+        <div className="relative">
+          <div className="absolute -z-50 flex h-full w-screen justify-evenly">
+            <div className="h-full w-0.5 bg-gray-700 opacity-20"></div>
+            <div className="h-full w-0.5 bg-gray-700 opacity-20"></div>
+            <div className="h-full w-0.5 bg-gray-700 opacity-20"></div>
+            <div className="h-full w-0.5 bg-gray-700 opacity-20"></div>
+            <div className="h-full w-0.5 bg-gray-700 opacity-20"></div>
+            <div className="h-full w-0.5 bg-gray-700 opacity-20"></div>
+            <div className="h-full w-0.5 bg-gray-700 opacity-20"></div>
+          </div>
+          {children}
+          <Footer />
+        </div>
+      </body>
     </html>
   );
 }
