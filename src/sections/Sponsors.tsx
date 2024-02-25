@@ -15,26 +15,26 @@ const Sponsors = (): JSX.Element => {
         <h2 className="pt-20 text-secondary">Gold</h2>
         <div className="flex flex-wrap items-center justify-center">
           <Image
-            className="rounded bg-white px-10 py-6"
-            src={"/images/devfolio1.png"}
-            alt="Devfolio"
-            width={270}
-            height={200}
+            className="rounded bg-white "
+            src={"/images/devfolio2.png"}
+            alt="DEVFOLIO LOGO"
+            width={300}
+            height={270}
           />
         </div>
         <h2 className="pt-20 text-secondary">Silver</h2>
         <div className="flex flex-wrap items-center justify-evenly gap-5">
           <Image
             className="rounded bg-white"
-            src={"/images/polygon.png"}
-            alt="Polygon"
+            src={"/images/polygon2.png"}
+            alt="POLYGON LOGO"
             width={250}
             height={200}
           />
           <Image
-            className="rounded bg-white p-5"
-            src={"/images/ethindia.png"}
-            alt="Ethindia"
+            className="rounded bg-white "
+            src={"/images/ethindia2.png"}
+            alt="ETHINDIA LOGO"
             width={250}
             height={200}
           />
