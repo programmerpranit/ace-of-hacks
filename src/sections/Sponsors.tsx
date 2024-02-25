@@ -17,7 +17,7 @@ const Sponsors = (): JSX.Element => {
           <Image
             className="rounded bg-white px-10 py-6"
             src={"/images/devfolio1.png"}
-            alt=""
+            alt="Devfolio"
             width={270}
             height={200}
           />

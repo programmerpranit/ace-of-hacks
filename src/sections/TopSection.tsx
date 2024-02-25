@@ -1,9 +1,16 @@
+"use client";
 import React from "react";
 import Image from "next/image";
+import Script from "next/script";
 
 const TopSection = (): JSX.Element => {
   return (
     <div className="relative flex h-dvh w-screen flex-col items-center justify-center">
+      <Script
+        src="https://apply.devfolio.co/v2/sdk.js"
+        async={true}
+        defer={true}
+      ></Script>
       <Image
         src={"/images/acpce-dark-logo.png"}
         width={200}
@@ -45,6 +52,12 @@ const TopSection = (): JSX.Element => {
           COMING SOON
         </p>
       </div>
+
+      <div
+        className="apply-button mt-5 h-11 w-72"
+        data-hackathon-slug="ace-of-hacks"
+        data-button-theme="dark-inverted"
+      ></div>
 
       <div className="absolute bottom-10  mt-10 rounded-full border border-secondary px-10 py-1 ">
         <p className="pb-0 text-xl font-semibold text-secondary">2024</p>
