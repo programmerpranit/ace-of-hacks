@@ -21,7 +21,7 @@ const FAQ = (): JSX.Element => {
         <AccordItem
           numb={2}
           question="What are the team formation rules?"
-          answer="No. of team members: 2 - 4 A participant cannot be a part of multiple teams simultaneously"
+          answer="No. of team members: 2 - 4. A participant cannot be a part of multiple teams simultaneously"
           active={active}
           setActive={setActive}
         />

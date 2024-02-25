@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const TopSection = (): JSX.Element => {
   return (
-    <div className="relative flex h-screen w-screen flex-col items-center justify-center">
+    <div className="relative flex h-dvh w-screen flex-col items-center justify-center">
       <Image
         src={"/images/acpce-dark-logo.png"}
         width={200}
@@ -33,7 +33,7 @@ const TopSection = (): JSX.Element => {
         alt=""
       />
 
-      <h1 className="text-5xl font-extrabold md:text-9xl">
+      <h1 className="max-sm:2xl text-center text-4xl font-extrabold md:text-9xl">
         {" "}
         <span className="text-primary"> Ace </span>of{" "}
         <span className="text-secondary"> Hacks</span>
