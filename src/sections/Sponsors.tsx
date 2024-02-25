@@ -27,14 +27,14 @@ const Sponsors = (): JSX.Element => {
           <Image
             className="rounded bg-white"
             src={"/images/polygon.png"}
-            alt=""
+            alt="Polygon"
             width={250}
             height={200}
           />
           <Image
             className="rounded bg-white p-5"
             src={"/images/ethindia.png"}
-            alt=""
+            alt="Ethindia"
             width={250}
             height={200}
           />
