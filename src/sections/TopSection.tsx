@@ -54,7 +54,7 @@ const TopSection = (): JSX.Element => {
       </div>
 
       <div
-        className="apply-button mt-5 h-11 w-72"
+        className="apply-button !mt-10 h-11 w-72"
         data-hackathon-slug="ace-of-hacks"
         data-button-theme="dark-inverted"
       ></div>
