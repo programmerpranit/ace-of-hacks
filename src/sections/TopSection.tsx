@@ -47,17 +47,18 @@ const TopSection = (): JSX.Element => {
         <span className="text-primary">.</span>
       </h1>
 
-      <div className="mt-10 animate-pulse rounded-full border border-secondary px-20 py-2 ">
+      {/* <div className="mt-10 animate-pulse rounded-full border border-secondary px-20 py-2 ">
         <p className="spacing pb-0 text-xl font-semibold md:text-4xl">
           COMING SOON
         </p>
+      </div> */}
+      <div className="mt-10 ">
+        <div
+          className="apply-button !mt-10 h-11 w-72"
+          data-hackathon-slug="ace-of-hacks"
+          data-button-theme="light"
+        ></div>
       </div>
-
-      <div
-        className="apply-button !mt-10 h-11 w-72"
-        data-hackathon-slug="ace-of-hacks"
-        data-button-theme="dark-inverted"
-      ></div>
 
       <div className="absolute bottom-10  mt-10 rounded-full border border-secondary px-10 py-1 ">
         <p className="pb-0 text-xl font-semibold text-secondary">2024</p>
