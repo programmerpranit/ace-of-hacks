@@ -9,16 +9,31 @@ const OurTeam = (): JSX.Element => {
         <div className="flex justify-around">
           <Team
             image="/team/fardin.jpg"
-            link=""
+            link="https://twitter.com/etrnlnite"
             name="Fardin"
             role="Organizer"
           />
           <Team
             image="/team/pranit.jpg"
-            link=""
+            link="https://pranitpatil.com"
             name="Pranit"
             role="Organizer"
           />
+        </div>
+        <div className="flex flex-col justify-around md:flex-row">
+          <Team
+            image="/team/pk.jpg"
+            link="https://prathameshk.com/"
+            name="Prathamesh"
+            role="Crew"
+          />
+          <Team
+            image="/team/omkar.jpg"
+            link="https://twitter.com/itsomkar7"
+            name="Omkar"
+            role="Crew"
+          />
+          <Team image="/team/omkar.jpg" link="" name="Omkar" role="Crew" />
         </div>
       </div>
     </>

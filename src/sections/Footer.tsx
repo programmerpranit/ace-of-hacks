@@ -27,7 +27,7 @@ const Footer = (): JSX.Element => {
             <Link href={"/code-of-conduct"}>
               <p className="text-white hover:text-secondary">Code of Conduct</p>
             </Link>
-            <Link href={"/code-of-conduct"}>
+            <Link href={"/team"}>
               <p className="text-white hover:text-secondary">Our Team</p>
             </Link>
           </div>
@@ -52,7 +52,7 @@ const Footer = (): JSX.Element => {
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.754038585022!2d73.05895307520417!3d19.030556982164715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c24052e100f3%3A0xb6e3e4259b43a898!2sA.%20C.%20Patil%20College%20of%20Engineering!5e0!3m2!1sen!2sin!4v1708847205696!5m2!1sen!2sin"
               width="250"
-              height="250"
+              height="100"
               loading="lazy"
             ></iframe>
           </div>

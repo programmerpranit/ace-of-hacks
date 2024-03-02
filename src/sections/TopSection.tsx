@@ -52,7 +52,7 @@ const TopSection = (): JSX.Element => {
           COMING SOON
         </p>
       </div> */}
-      <div className="mt-10 ">
+      <div className="mt-20">
         <div
           className="apply-button !mt-10 h-11 w-72"
           data-hackathon-slug="ace-of-hacks"
