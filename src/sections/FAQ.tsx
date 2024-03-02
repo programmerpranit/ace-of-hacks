@@ -13,8 +13,7 @@ const FAQ = (): JSX.Element => {
           numb={1}
           question="Is there a Registration fee to participate in Ace Of Hacks
           2024?"
-          answer="No, Ace Of Hacks does not charge you or your team any fee to participate in
-          the hackathon."
+          answer="Registration Fees? What is That? Ace Of Hacks does not charge you or your team any fee to participate in the hackathon."
           active={active}
           setActive={setActive}
         />
@@ -22,6 +21,13 @@ const FAQ = (): JSX.Element => {
           numb={2}
           question="What are the team formation rules?"
           answer="No. of team members: 2 - 4. A participant cannot be a part of multiple teams simultaneously"
+          active={active}
+          setActive={setActive}
+        />
+        <AccordItem
+          numb={3}
+          question="Is This Hackathon Beginner Friendly?"
+          answer="Yes, this hackathon is beginner friendly where we cater to newcomers with a great deal of attention."
           active={active}
           setActive={setActive}
         />

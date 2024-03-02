@@ -23,7 +23,7 @@ const Sponsors = (): JSX.Element => {
           />
         </div>
         <h2 className="pt-20 text-secondary">Gold</h2>
-        <div className="flex flex-wrap items-center justify-evenly ">
+        <div className="flex flex-wrap items-center justify-evenly gap-5 ">
           <Image
             className="h-24 w-72 rounded bg-white object-contain p-1"
             src={"/images/letsupgrade.png"}

@@ -6,7 +6,7 @@ const Tracks = (): JSX.Element => {
       <div className="mx-auto max-w-7xl py-10">
         <h2 className="text-center">Tracks</h2>
         <div className="flex flex-col justify-around text-center md:flex-row">
-          <div className="w-1/3 p-5">
+          <div className="p-5 md:w-1/3">
             <div className=" h-full rounded-lg border border-primary p-5">
               <h3 className="text-secondary">Generative AI</h3>
               <br />
@@ -18,7 +18,7 @@ const Tracks = (): JSX.Element => {
               </p>
             </div>
           </div>
-          <div className="w-1/3 p-5">
+          <div className="p-5 md:w-1/3">
             <div className=" h-full rounded-lg border border-primary p-5">
               <h3 className="text-secondary">Blockchain</h3>
               <br />
@@ -29,7 +29,7 @@ const Tracks = (): JSX.Element => {
               </p>
             </div>
           </div>
-          <div className="w-1/3 p-5">
+          <div className="p-5 md:w-1/3">
             <div className=" h-full rounded-lg border border-primary p-5">
               <h3 className="text-secondary">Open Innovation</h3>
               <br />
