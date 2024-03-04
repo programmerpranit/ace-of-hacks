@@ -46,6 +46,8 @@ const TopSection = (): JSX.Element => {
         <span className="text-secondary"> Hacks</span>
         <span className="text-primary">.</span>
       </h1>
+      <br />
+      <h2>30-31 March</h2>
 
       {/* <div className="mt-10 animate-pulse rounded-full border border-secondary px-20 py-2 ">
         <p className="spacing pb-0 text-xl font-semibold md:text-4xl">

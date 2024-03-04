@@ -6,7 +6,7 @@ const OurTeam = (): JSX.Element => {
     <>
       <div className="mx-auto max-w-7xl p-5">
         <h2 className="text-center">Our Team</h2>
-        <div className="flex justify-around">
+        <div className="flex flex-col justify-around md:flex-row">
           <Team
             image="/team/fardin.jpg"
             link="https://twitter.com/etrnlnite"
@@ -33,7 +33,7 @@ const OurTeam = (): JSX.Element => {
             name="Omkar"
             role="Crew"
           />
-          <Team image="/team/omkar.jpg" link="" name="Omkar" role="Crew" />
+          {/* <Team image="/team/omkar.jpg" link="" name="Omkar" role="Crew" /> */}
         </div>
       </div>
     </>
