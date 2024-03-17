@@ -49,12 +49,16 @@ const TopSection = (): JSX.Element => {
       <br />
       <h2>30-31 March</h2>
 
+      <a href="https://ace-of-hacks.devfolio.co" className="text-secondary">
+        View On Devfolio
+      </a>
+
       {/* <div className="mt-10 animate-pulse rounded-full border border-secondary px-20 py-2 ">
         <p className="spacing pb-0 text-xl font-semibold md:text-4xl">
           COMING SOON
         </p>
       </div> */}
-      <div className="mt-20">
+      <div className="mt-10">
         <div
           className="apply-button !mt-10 h-11 w-72"
           data-hackathon-slug="ace-of-hacks"
