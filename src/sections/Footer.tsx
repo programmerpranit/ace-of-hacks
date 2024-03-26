@@ -30,6 +30,11 @@ const Footer = (): JSX.Element => {
             <Link href={"/team"}>
               <p className="text-white hover:text-secondary">Our Team</p>
             </Link>
+            <Link href={"/timeline"}>
+              <p className="text-white hover:text-secondary">
+                Hackathon Timeline
+              </p>
+            </Link>
           </div>
           <div className="md:w-1/4">
             <h3>Contact</h3>
