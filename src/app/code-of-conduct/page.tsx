@@ -1,3 +1,4 @@
+import Footer from "@/sections/Footer";
 import React from "react";
 
 const CodeOfConduct = (): JSX.Element => {
@@ -104,6 +105,7 @@ const CodeOfConduct = (): JSX.Element => {
           about this code of conduct, please contact at: contact@Ace of Hacks.in
         </p>
       </div>
+      <Footer />
     </>
   );
 };

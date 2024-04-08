@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import React from "react";
-import Footer from "@/sections/Footer";
 
 export const metadata: Metadata = {
   title: "Ace of Hacks",
@@ -40,7 +39,6 @@ export default function RootLayout({
             <div className="h-full w-0.5 bg-gray-700 opacity-20"></div>
           </div>
           {children}
-          <Footer />
         </div>
       </body>
     </html>

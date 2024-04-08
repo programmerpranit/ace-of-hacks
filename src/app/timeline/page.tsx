@@ -1,3 +1,4 @@
+import Footer from "@/sections/Footer";
 import React from "react";
 
 const Timeline = (): JSX.Element => {
@@ -11,7 +12,7 @@ const Timeline = (): JSX.Element => {
           <Activity time="9:00 am - 10:30 am" title="Registration" />
           <Activity time="10:30 am - 11:30 am" title="Inauguration" />
           <Activity time="12:00 pm" title="Hackathon Starts" />
-          <Activity time="12:00 pm- 1:00 pm" title="1st Mentoring Round" />
+          <Activity time="12:00 pm - 1:00 pm" title="1st Mentoring Round" />
           <Activity time="1:00 pm" title="Lunch" />
           <Activity time="6:00 pm" title="Tea" />
           <Activity time="7:00 pm - 8:00 pm" title="2nd Mentoring Round" />
@@ -19,7 +20,7 @@ const Timeline = (): JSX.Element => {
           <Activity time="2.00 am" title="Break" />
           <Activity time="8:00 am" title="Breakfast" />
           <Activity time="12:00 pm" title="Final Commit (Coding Stops)" />
-          <Activity time="12:00 pm  -1:00 pm" title="1st Judging Round" />
+          <Activity time="12:00 pm - 1:00 pm" title="1st Judging Round" />
           <Activity time="12:30 pm" title="Lunch" />
           <Activity time="1:30 pm" title="Finalist Announcement" />
           <Activity
@@ -28,6 +29,7 @@ const Timeline = (): JSX.Element => {
           />
         </div>
       </div>
+      <Footer />
     </>
   );
 };
